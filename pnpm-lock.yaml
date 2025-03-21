@@ -24,6 +24,15 @@ importers:
         specifier: ^5.8.2
         version: 5.8.2
 
+  packages/greetings:
+    devDependencies:
+      semantic-release:
+        specifier: ^24.2.3
+        version: 24.2.3(typescript@5.8.2)
+      typescript:
+        specifier: ^5.8.2
+        version: 5.8.2
+
 packages:
 
   '@babel/code-frame@7.26.2':
