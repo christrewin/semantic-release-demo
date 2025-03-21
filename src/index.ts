@@ -6,6 +6,6 @@ export const greets = (name: string): string => {
   return `Hello, ${name}, from greets @ Semantic Release Demo!`;
 };
 
-export const greeter = (name: string): string => {
-  return `Hello, ${name}, from greeter @ Semantic Release Demo!`;
+export const greeters = (name: string): string => {
+  return `Hello, ${name}, from greeters @ Semantic Release Demo!`;
 };
