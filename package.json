@@ -1,23 +1,22 @@
 {
   "name": "@snoutstudio/semantic-release-demo",
-  "version": "4.0.0",
-  "main": "index.js",
+  "version": "0.0.0-development",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build --workspaces",
     "semantic-release": "semantic-release"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Chris Trewin",
+  "license": "Apache-2.0",
+  "description": "Snout Studio - semantic release demo",
+  "keywords": [
+    "semantic release"
+  ],
   "devDependencies": {
     "semantic-release": "^24.2.3",
     "typescript": "^5.8.2"
-  },
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "publishConfig": {
-    "access": "public"
   }
 }
