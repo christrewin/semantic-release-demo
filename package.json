@@ -1,6 +1,6 @@
 {
   "name": "@snoutstudio/semantic-release-demo",
-  "version": "0.0.0-development",
+  "version": "4.0.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
