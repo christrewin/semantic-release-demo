@@ -1,34 +1,33 @@
 {
-    "name": "@snoutstudio/core",
-    "version": "0.0.0-development",
-    "license": "Apache-2.0",
-    "main": "dist/index.js",
-    "module": "dist",
-    "type": "module",
-    "types": "dist/index.d.ts",
-    "scripts": {
-      "build": "tsc",
-      "semantic-release": "semantic-release"
-    },
-    "author": "Chris Trewin",
-    "description": "Snout Studio - Core Lib",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/christrewin/semantic-release-demo.git"
-    },
-    "bugs": {
-        "url": "https://github.com/christrewin/semantic-release-demo/issues"
-    },
-    "devDependencies": {
-      "semantic-release": "^24.2.3",
-      "typescript": "^5.8.2"
-    },
-    "files": [
-      "dist",
-      "README.md"
-    ],
-    "publishConfig": {
-      "access": "public"
-    }
+  "name": "@snoutstudio/core",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "module": "dist",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "author": "Chris Trewin",
+  "description": "Snout Studio - Core Lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christrewin/semantic-release-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christrewin/semantic-release-demo/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
-  
+}
