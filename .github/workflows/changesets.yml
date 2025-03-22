@@ -5,6 +5,11 @@ on:
     branches:
       - changesets
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 env:
   CI: true
 
@@ -24,9 +29,15 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
-      
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
+
+      - name: Build project
+        run: pnpm run build        
       
       - name: Create and publish versions
         uses: changesets/action@v1
