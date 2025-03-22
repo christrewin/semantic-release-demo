@@ -8,7 +8,7 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "semantic-release": "semantic-release",
-    "ci:publish": "pnpm publish -r --dry-run --access public --publish-branch=changesets"
+    "ci:publish": "pnpm publish -r --access public --publish-branch=changesets"
   },
   "author": "Chris Trewin",
   "license": "Apache-2.0",
