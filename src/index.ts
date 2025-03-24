@@ -5,3 +5,7 @@ export const hello = (name: string): string => {
 export const world = (name: string): string => {
   return `Hello, ${name}, from Semantic Release Demo!`;
 };
+
+export const lists = (name: string): string => {
+  return `Hello, ${name}, from Semantic Release Demo!`;
+};
